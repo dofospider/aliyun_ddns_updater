@@ -1,0 +1,15 @@
+domain:
+  name: "abc.com"
+  rr: "www"
+  type: "@"
+aliyun_account:
+  access_key_id: "aaaaaaaaaaaaaaaaaaaaaaaaaa"
+  access_key_secret: "ssssssssssssssssssssssssssssssssssssss"
+
+get_public_ip:
+  urls:
+    - "http://www.3322.org/dyndns/getip"
+    - "https://service.qqays.xyz/my-ip"
+    - "https://checkip.amazonaws.com/"
+    - "https://ipv4.icanhazip.com/"
+

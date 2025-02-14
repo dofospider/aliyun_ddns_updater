@@ -1,0 +1,5 @@
+logger:
+    rotation: "50 MB"
+    retention: "30 days"
+    enqueue: true
+    level: "INFO"
