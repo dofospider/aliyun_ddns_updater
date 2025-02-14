@@ -1,0 +1,2 @@
+# aliyun_ddns_updater
+使用pythonAPI的阿里云ddns更新器，方便nas更新活动外网地址
