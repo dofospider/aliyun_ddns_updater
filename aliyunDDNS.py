@@ -21,7 +21,7 @@ def main():
 
 
     aliyun_api = AliyunAPI(config, logger)
-    record_id=aliyun_api.get_domain_record_id()
+    # record_id = aliyun_api.get_domain_record_id()
 
 
 

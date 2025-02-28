@@ -18,9 +18,10 @@ class AliyunAPI:
         self.domain_name = config['domain']['name']
         self.domain_rr = config['domain']['rr']
         self.domain_type= config['domain']['type']
-        self.domain_record_id=None
 
         self.client=self.get_client()
+
+        self.domain_record_id = self.get_domain_record_id()
 
     def get_client(self):
         config = open_api_models.Config(
